@@ -518,10 +518,10 @@ commands:
   mana:
     display: "<white>Tvoje {mana_unit}: <aqua>{current}/{max}"
     display_other: "<white>{mana_unit} of {player}: <aqua>{current}/{max}"
-    desc: Display your or another player's current and max mana
+    desc: Zobrazí aktuální a maximální manu tebe nebo jiného hráče
     add:
-      added: "<gray>Added <aqua>{amount} {mana_unit} <gray>to player <gold>{player}"
-      desc: Adds mana to a player
+      added: "<gray>Přidáno <aqua>{amount} {mana_unit} <gray>hráči <gold>{player}"
+      desc: Přidá hráči manu
     remove:
       removed: "<gray>Removed <aqua>{amount} {mana_unit} <gray>from player <gold>{player}"
       desc: Removes mana from a player
@@ -534,14 +534,14 @@ commands:
     add:
       added: "{color}{stat} <gray>Modifikátor level <aqua>{value} <gray>se jmeném <white>{name} <gray>přidán do hráčovi <gold>{player}"
       already_exists: "<yellow>Modifier se jmeném {name} již hráč existuje <gold>{player}<yellow>! Odstranis jej pomoci prikazu <gold>/sk modifier remove {player} {name}"
-      desc: Adds a stat modifier to a player.
+      desc: Přidá hráči modifikátor statistiky.
     addtemp:
-      added: "Added temporary stat modifier to {player} with stat: {stat}, name: {name}, value: {value}, duration: {duration}, operation: {operation}"
-      desc: Adds a temporary stat modifier to a player.
+      added: "Hráči {player} byl přidán dočasný modifikátor statistiky: {stat}, název: {name}, hodnota: {value}, trvání: {duration}, operace: {operation}"
+      desc: Přidá hráči dočasný modifikátor statistiky.
     remove:
       not_found: "<yellow>Modifier {name} nemuže nalézt hráče <gold>{player}"
       removed: "<gray>Modifier <white>{name} <gray>odstraněn z hráče<gold>{player}"
-      desc: Removes a specific stat modifier from a player.
+      desc: Odstraní konkrétní modifikátor statistiky z hráče.
     list:
       all_stats_header: "<gray>Modifikátory statistik pro hráče <gold>{player}:"
       all_stats_entry: "  <white>{name} - {color}{stat} <white>Level <gold>{value}"
