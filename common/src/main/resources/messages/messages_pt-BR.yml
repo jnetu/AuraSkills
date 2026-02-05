@@ -57,8 +57,8 @@ abilities:
     info: "+{value}% de Dano de Picareta"
   stamina:
     name: Estamina
-    desc: "Concede +{value} Tenacidade enquanto segurando uma picareta."
-    info: "+{value} Tenacidade"
+    desc: "Concede +{value} de Resistência a Dano enquanto segurando uma picareta."
+    info: "+{value} Resistência a Dano"
   hardened_armor:
     name: Armadura Reforçada
     desc: "{value}% de chance de anular a durabilidade de dano na armadura."
@@ -834,8 +834,8 @@ stats:
     name: Sabedoria
     desc: "A sabedoria aumenta sua mana máxima, aumenta ganhos de experiência e reduz os custos da bigorna."
   toughness:
-    name: Tenacidade
-    desc: "A Tenacidade aumenta a quantidade de de dano reduzido de ataques inimigos."
+    name: Resistência a Dano
+    desc: "A Resistência a Dano aumenta a quantidade de de dano reduzido de ataques inimigos."
   crit_chance:
     name: Chance de Crítico
     desc: "A chance de crítico é sua chance de causar um golpe crítico."
