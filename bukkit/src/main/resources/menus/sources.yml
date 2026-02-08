@@ -32,7 +32,7 @@ items:
       - '<yellow>{{sort_click}}'
 templates:
   source:
-    material: gray_dye
+    material: experience_bottle
     display_name: '<white>{source_name}'
     lore:
       - '<gray>{xp_unit}: {source_xp}'

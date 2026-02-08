@@ -106,6 +106,12 @@ templates:
         material: iron_sword
       movement_speed:
         material: sugar
+      chat_battery:
+          material: clock
+      'meu_plugin:chat_battery':
+          material: clock
+      'meu_plugin/chat_battery':
+          material: clock
     display_name: '{color}{trait_name}'
     lore:
       - '<dark_gray>{{trait}}'
